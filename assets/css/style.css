@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    
+    background-color: #faf9f9;
+}
+
+header {
+    background-color: #fff;
+    padding: 0 350px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header-top_links > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+    & a {
+        text-decoration: none;
+        color: #000;
+        font-size: .75rem;
+    }
+}
+
+.header-mid {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 210px;
+    height: 35.75px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.search-input {
+    width: 100%;
+    margin: 0 40px;
+    flex: 1;
+    & input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #d9d9d9;
+        border-radius: 6px;
+    }
+
+    & input:focus {
+        outline: none;
+    }
+
+
+}
+
+.user-menu  {
+
+    & ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+
+        & li {
+
+            & a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+
+.kampaniyalar {
+    padding: 0 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.card {
+    width: 30%;
+    height: 225px;
+    background-image: url('https://cdn.dsmcdn.com/ty1034/pimWidgetApi/mobile_20231106180847_SupermarketteYuksekPuanliUrunler2353627mobile.jpg');
+}
